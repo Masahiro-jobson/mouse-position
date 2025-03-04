@@ -9,6 +9,7 @@ toggleComponent function has setShowComponent which changes the previous state t
 In the return statement, there is button which shows 'Unmount Tracker'(default) or /br 'Mount Tracker' depending on showComponent state (toggleComponent is trigger).
 If showComponent is true, MouseTracker is rendered but if not, it's not.
 </br>
+
 In MouseTracker, I set value intial value x and y as '0' (mousePosition state x and y).</br>
 And, I made another function which is handleMouseMove to update mousePosition with setMousePosition. </br>
 In the handleMouseMove "e" is triggered for running the code, so I add event ('mousemove') 
