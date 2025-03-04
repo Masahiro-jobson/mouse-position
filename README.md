@@ -1,6 +1,6 @@
 Make mouse-position app with Reacte + vite.
 I made it mainly for understanding how to use useEffect hooks and how it will be rendered deeply.
-/br
+</br>
 I divided 3 components which are App.jsx, ParentComponent.jsx, and MouseTracker.jsx.
 App.jsx is the parent component of ParentComponent.jsx and refers to that component with </ ParentComponent>. /br
 
